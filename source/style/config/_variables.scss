@@ -1,0 +1,62 @@
+// Colors
+
+// Colors-Main-Title-Subtitle
+$main-color: #777777;
+$secondary-color: #BFBFBF;
+$main-background: #EDEDED;
+
+// Colors-Nav
+$navBackground: linear-gradient(to bottom, #FC755A,#FD5570);
+$logo-color: linear-gradient(#FC725C, #FD5073);
+$white: #fff;
+
+// Colors-Header
+$borderHeader: #F1F1F1;
+$searchBackground: #F8F8F8;
+$searchBorder: #F1F1F1;
+$searchPlaceholder: #C8C8C8;
+$textGradient:  linear-gradient(90deg, rgba(253,78,117,1), rgba(252,119,89,1));
+$textColor: #BFBFBF;
+
+// Colors-Footer
+$footer-title: #838383;
+$rdio-bg: linear-gradient(90deg, #B373E0, #6D5BB6);
+$css-bg: linear-gradient(90deg, #51E3C5, #4CBFC3);
+$deviantart-bg: linear-gradient(90deg, #EDAD93, #B3727B);
+$xing-bg: linear-gradient(90deg, #7381DF, #9961BB);
+$vimeo-bg: linear-gradient(90deg, #2EC5DE, #538DE7);
+$vk-bg: linear-gradient(90deg, #FCDD95, #F59283);
+
+// Today-Main-Section
+$label-color: #FD566F;
+$label-border: #EDEDED;
+$time-color: #9C9C9C;
+
+//Progress-Main-Section
+$progress-gradient: linear-gradient(90deg, #708AE6, #8841AF);
+
+//Aside-Main-Section 
+$asideBorder: #F1F1F1;
+$aside-search-placeholder: #C4C4C4;
+$aside-search-background: #FCFCFC; 
+$aside-tab-hover: #94373d;
+$aside-tab-bg:linear-gradient(to bottom, #FC755A,#FD5570);
+
+// Font-sizes
+$font-weights: (
+    "regular": 400,
+    "light": 300,
+    "bold": 700
+);
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
