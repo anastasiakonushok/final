@@ -1,0 +1,37 @@
+.main-container {
+    width: 100%; 
+}
+
+.main {
+ display: flex;
+
+ border: 3px solid yellow;
+}
+.main__progress-box {
+    display: flex; 
+    flex-direction:column;
+    width: 80%;
+    border: 3px solid red;
+}
+.main__progress--box1 {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid green;
+}
+.revenue__progress {
+    width: 70%;
+    .revenue__tab {
+        display: flex; 
+        align-items: center;
+    }
+}
+.revenue__hour {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 2em;
+    img {
+        width: 124px;
+        height: 124px;
+    }
+}

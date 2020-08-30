@@ -1,0 +1,88 @@
+/* Main-Header */
+.header {
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    
+    border:2px solid $borderHeader;
+    border-top: none;
+}
+.left-list {
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    
+    &__item {
+        padding: 1em;
+        border-right:2px solid $borderHeader;
+    }
+}
+.header-form {
+    position: relative;
+
+    &__input {
+        width: calc(300px + 6vw);
+        padding: 1em;
+        background-color: $searchBackground;
+        border: 1px solid $searchBorder;
+        border-radius: 2em;
+        outline: none;
+    }
+    &__input::placeholder {
+        font-size: 12px;
+        text-transform: capitalize;
+        color:$searchPlaceholder;
+    }
+    &__btn {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
+.right-content {
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+
+    .right-list {
+        display: flex;
+        align-items:center;
+        flex-direction: row;
+    
+        &__item {
+        padding: 1em;
+        border-left:2px solid $borderHeader;
+        }
+    }
+    .user__account {
+        display: flex;
+        align-items:center;
+
+        .account__data {
+        padding: 1em;
+
+            h3 {
+            margin-bottom:0.5em;
+            font-family:Lato-Bold,AdobeInvisFont,MyriadPro-Regular;
+            font-size:15px;
+            }
+            p {
+            font-family:Lato-Regular,AdobeInvisFont,MyriadPro-Regular;
+            font-size:13px;
+            color: $secondary-color;
+            }
+        }
+    }
+}
+.r {
+    padding-right: 2em;
+    padding-left: 3em;
+}
+
+
